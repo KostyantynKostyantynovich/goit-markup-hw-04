@@ -367,8 +367,9 @@ background: var(--second-bg-color);
     justify-content: center;
     padding-bottom:  30px;
     fill: #afb1b8;
-    gap: 10px;
+gap: 10px;
 }
+
 
 .social-network{
     display: flex;
