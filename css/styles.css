@@ -367,6 +367,7 @@ background: var(--second-bg-color);
     justify-content: center;
     padding-bottom:  30px;
     fill: #afb1b8;
+    gap: 10px;
 }
 
 .social-network{
@@ -379,9 +380,6 @@ background: var(--second-bg-color);
     align-items: center;
     justify-content: center;
 
-   
-
-
 }
 .social-network:hover,
 .social-network:focus {
@@ -389,9 +387,6 @@ background: var(--second-bg-color);
     background-color: var(--blue-color);
 }
 
-.social-network-margin:not(:last-child){
-    margin-right: 10px;
-}
 
 
 .svg{
@@ -509,7 +504,7 @@ margin-bottom: 50px;
 }
 
 
-.clients-border{
+.clients-logo{
     display: flex;
 width: 170px;
 height: 92px;
@@ -522,17 +517,18 @@ justify-content: center;
 margin-right: 30px;
 }
 
-.clients-border:hover,
-.clients-border:focus{
+.clients-logo:hover,
+.clients-logo:focus{
 fill: var(--blue-color);
 border: 1px solid var(--blue-color);
 }
 
-.clients-logo{
-display: flex;
+.clients-svg{
+display: block;
   
 width: 106px;
 height: 60px;
+
 }
 
 
@@ -624,7 +620,7 @@ margin-bottom: 20px;
 }
 
 .footer-social-network-bg{
-    padding: 12px;
+  
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -635,14 +631,17 @@ margin-bottom: 20px;
     margin-right: 10px;
 }
 
-.footer-social-network-bg:hover,
-.footer-social-network-bg:focus {
-    background-color: var(--blue-color);
-} 
+
 .footer-social-network-bg-size{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
 
-    width: 20px;
-    height: 20px;
-
+.footer-social-network-bg-size:hover,
+.footer-social-network-bg-size:focus {
+    border-radius: 50%;
+    background-color: var(--blue-color);
 }
